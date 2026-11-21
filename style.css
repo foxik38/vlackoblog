@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #F2F2F2;
+  color: #000000;
+  line-height: 25px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p, h2 {
+  font-weight: 400;
+}
+
+header {
+  border-top: 5px solid #0047AB;
+  background-color: #d8e1f4;
+}
+
+footer {
+  background-color: #d1d3d5;
+  margin-top: 50px;
+}
+
+main {
+  max-width: 72ch;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 20px;
+}
+
+.mega-velke-h1 {
+  font-weight: 900;
+  font-size: 56px;
+}
+
+.tlacitko {
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid #000000;
+  background-color: #F2F2F2;
+  color: #000000;
+  padding: 10px;
+}
+
+.tlacitko:hover {
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid #000000;
+  background-color: #d8e1f4; 
+  color: #000000;
+  padding: 10px;
+}
+
+.logo {
+  padding-top: 50px;
+}
+
+.seznam-vlacku {
+  line-height: 20px;  
+}
+
+.fotogalerie-sekce {
+  line-height: 10px;
+}
+
+.fotogalerie-vlacku {
+  display: flex;
+  gap: 16px;
+}
+
+.fotka-vlacku {
+  flex: 1;
+  line-height: 10px;
+}
+
+.fotka-vlacku img {
+  width: 100%;
+}
+
+.vnitrni-header {
+  max-width: 72ch;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.redirect {
+  color: #000000;
+}
+
+.vnitrni-footer {
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 10px 0px 5px 0px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.vnitrni-footer img {
+  max-width: 50px;
+}
+
+main, .vnitrni-header, .vnitrni-footer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (max-width: 600px) {
+  .fotogalerie-vlacku { flex-direction: column; }
+  .mega-velke-h1 { font-size: 36px; line-height: 1.1; }
+  .vnitrni-footer, p { line-height: 20px; }
+}
